@@ -41,7 +41,7 @@ export function RestaurantCard({
       size="large"
       intent="filled"
       className={cx(
-        "relative flex overflow-hidden h-[12.625rem] min-w-[20.4375rem]",
+        "relative flex overflow-hidden h-[12.625rem] max-w-[20.4375rem]",
         className,
       )}
       {...props}

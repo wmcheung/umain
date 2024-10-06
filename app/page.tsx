@@ -70,7 +70,7 @@ export default async function Home({ searchParams }: HomeProps) {
             <div className="flex flex-wrap gap-2.5 md:gap-4">
               {restaurants.map((restaurant) => (
                 <RestaurantCard
-                  className="w-full md:w-1/4"
+                  className="w-full md:w-1/3"
                   key={restaurant.id}
                   title={restaurant.name}
                   status={restaurant.isOpen ? "open" : "closed"}
