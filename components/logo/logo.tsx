@@ -8,7 +8,7 @@ export function Logo({ dark }: LogoProps) {
       viewBox="0 0 168 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={`${dark ? "text-black" : "text-white"}`}
+      className={`${dark ? "text-black" : "text-white"} max-w-[17.0625rem]`}
     >
       <path
         fillRule="evenodd"
