@@ -1,0 +1,15 @@
+{
+  "arrowParens": "always",
+  "importOrder": [
+    "<BUILTIN_MODULES>",
+    "",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@/",
+    "",
+    "^[.]"
+  ],
+  "importOrderTypeScriptVersion": "^5",
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+  "trailingComma": "all"
+}
