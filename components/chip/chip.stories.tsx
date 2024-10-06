@@ -10,7 +10,6 @@ const meta = {
     layout: "centered",
   },
   tags: ["autodocs"],
-  args: { onClick: fn() },
 } satisfies Meta<typeof Chip>;
 
 export default meta;
